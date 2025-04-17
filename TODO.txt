@@ -1,0 +1,9 @@
+
+x= (a +b*cos(v))*cos(u)
+y=(a+b*cos(v))*sin(u)
+z=b*sin(v)
+a [2;5]
+b [0.5;2]
+u [0; 6.28]
+v [0; 6.28]
+
