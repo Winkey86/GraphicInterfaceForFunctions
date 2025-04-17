@@ -529,7 +529,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         try:
-            self.setWindowTitle("График функции в 3D с треугольниками и сеткой")
+            self.setWindowTitle("Graphic Interface for Functions")
             self.graph_widget = GraphWidget()
             self.setCentralWidget(self.graph_widget)
             self.control_panel = ControlPanel(self.graph_widget)
